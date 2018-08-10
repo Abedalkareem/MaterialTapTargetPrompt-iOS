@@ -1,0 +1,6 @@
+framework module MaterialTapTargetPrompt_iOS {
+  umbrella header "MaterialTapTargetPrompt-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

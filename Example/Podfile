@@ -3,9 +3,4 @@ use_frameworks!
 target 'MaterialTapTargetPrompt-iOS_Example' do
   pod 'MaterialTapTargetPrompt-iOS', :path => '../'
 
-  target 'MaterialTapTargetPrompt-iOS_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
