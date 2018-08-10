@@ -7,7 +7,7 @@ A iOS version of Material Tap Target Prompt ,Written in Swift and can be used in
 
 <b>ScreenShots</b>
 
-<img src="https://raw.githubusercontent.com/Abedalkareem/MaterialTapTargetPrompt-iOS/master/MaterialTapTargetPrompt/screenshot.png"  width="450">
+<img src="https://raw.githubusercontent.com/Abedalkareem/MaterialTapTargetPrompt-iOS/master/screenshot.png"  width="450">
 
 <b>Usage</b>
 
@@ -27,7 +27,12 @@ tapTargetPrompt.textPostion = .bottomRight
 
 <b>Installation</b>
 
-Just add ```MaterialTapTargetPrompt.swift``` in your project
+MaterialTapTargetPrompt-iOS is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'MaterialTapTargetPrompt-iOS'
+```
 
 
 <b>Note</b>
