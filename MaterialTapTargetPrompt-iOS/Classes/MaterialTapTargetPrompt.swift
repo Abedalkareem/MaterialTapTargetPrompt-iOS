@@ -32,7 +32,7 @@
 import UIKit
 
 public class MaterialTapTargetPrompt: UIView {
-
+    
     // MARK: Private properties
     fileprivate var targetView: UIView!
     private let coloredCircleLayer = CAShapeLayer()
@@ -41,18 +41,18 @@ public class MaterialTapTargetPrompt: UIView {
     fileprivate var type: Type!
     private let sizeOfView: CGFloat!
     private var spaceBetweenLabel: CGFloat = 10.0
-
+    
     private var primaryTextLabel: UILabel!
     private var secondaryTextLabel: UILabel!
     private var dummyView: UIView?
     private let appWindow = UIApplication.shared.keyWindow
-
+    
     // MARK: Public properties
     /// The primary label font
     public var primaryFont: UIFont?
     /// The secondary label font
     public var secondaryFont: UIFont?
-
+    
     /// The action will run when the target clicked.
     public var action: (() -> Void) = {}
     /// The action will run when out of the target clicked.
@@ -86,7 +86,7 @@ public class MaterialTapTargetPrompt: UIView {
         willSet {
             var xPostion: CGFloat = 0.0
             var yPostion: CGFloat = 0.0
-
+            
             let viewWidth = self.frame.width
             // set y and x postion
             switch newValue {
@@ -139,10 +139,10 @@ public class MaterialTapTargetPrompt: UIView {
         self.targetView = getTargetView(object: targetView) // get the view from the sended target
         backgroundColor = UIColor.clear // make background of view clear
         
-
+        
         let convertedFrame = self.targetView.convert(self.targetView.bounds, to: appWindow)
         self.center = CGPoint(x: convertedFrame.origin.x + convertedFrame.width/2 , y: convertedFrame.origin.y + convertedFrame.height/2) //center view
-
+        
         appWindow?.addSubview(self) // add to window
         
         drawColoredCircle()
@@ -161,15 +161,15 @@ public class MaterialTapTargetPrompt: UIView {
     
     private func getTargetView(object: NSObject) -> UIView? {
         if let barButtonItem = object as? UIBarButtonItem {
-            return (barButtonItem.value(forKey: "view") as! UIView) //get the view from UIBarButtonItem
+            return barButtonItem.value(forKey: "view") as? UIView //get the view from UIBarButtonItem
         } else if let view = object as? UIView {
             return view
         } else {
             return nil
         }
     }
-
-
+    
+    
     private func addText() {
         var xPostion = self.frame.width/1.9 // right
         if textPostion == .bottomLeft {
@@ -195,7 +195,7 @@ public class MaterialTapTargetPrompt: UIView {
         // hide labels
         primaryTextLabel.alpha = 0
         secondaryTextLabel.alpha = 0
-
+        
     }
     
     private func showLabels() {
@@ -204,30 +204,30 @@ public class MaterialTapTargetPrompt: UIView {
             self.secondaryTextLabel.alpha = 1
         }
     }
-
+    
     // MARK: Draw circles
     
     private func drawColoredCircle() {
         
         coloredCircleLayer.path = shrinkedBlurWhiteCirclePath.cgPath
-        coloredCircleLayer.fillRule = kCAFillRuleEvenOdd
+        coloredCircleLayer.fillRule = .evenOdd
         coloredCircleLayer.fillColor = circleColor.cgColor
         coloredCircleLayer.opacity = 0.9
-
+        
         self.layer.addSublayer(coloredCircleLayer)
         
         playExpandAnimation()
-
+        
     }
-
+    
     
     private func drawBlurWhiteCircle() {
         
         blurWhiteCircleLayer.path = shrinkedBlurWhiteCirclePath.cgPath
-        blurWhiteCircleLayer.fillRule = kCAFillRuleEvenOdd
+        blurWhiteCircleLayer.fillRule = .evenOdd
         blurWhiteCircleLayer.fillColor = UIColor.white.cgColor
         blurWhiteCircleLayer.opacity = 0.0
-
+        
         self.layer.addSublayer(blurWhiteCircleLayer)
         
         addBulrFilterToWhiteCircle()
@@ -255,16 +255,16 @@ public class MaterialTapTargetPrompt: UIView {
         let animation = CABasicAnimation(keyPath: "path")
         animation.duration = 0.8
         animation.toValue =  coloredCircleLayerPath.cgPath
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         // if you remove it the shape will return to the original shape after the animation finished
-        animation.fillMode = kCAFillModeBoth
+        animation.fillMode = .both
         animation.isRemovedOnCompletion = false
         
         coloredCircleLayer.add(animation, forKey: nil)
         CATransaction.commit()
     }
     
-
+    
     
     private func playAnimationForWhiteCircle() {
         
@@ -272,13 +272,13 @@ public class MaterialTapTargetPrompt: UIView {
         animation.duration = 1.55
         animation.beginTime = CACurrentMediaTime() + 0.8
         animation.toValue =  expandedBlurWhiteCirclePath.cgPath
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         animation.repeatCount = HUGE
         // if you remove it the shape will return to the original shape after the animation finished
-        animation.fillMode = kCAFillRuleEvenOdd
+        animation.fillMode = .both
         animation.isRemovedOnCompletion = false
         blurWhiteCircleLayer.add(animation, forKey: nil)
-
+        
         let opacityanimation: CABasicAnimation = CABasicAnimation(keyPath: "opacity");
         opacityanimation.fromValue = 0.7
         opacityanimation.toValue = 0
@@ -292,7 +292,7 @@ public class MaterialTapTargetPrompt: UIView {
     // when touch the icon run the action
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first
-
+        
         // if button clicked invoke action
         let isButtonClicked = shrinkedBlurWhiteCirclePath.cgPath.boundingBoxOfPath.contains(touch!.location(in: self))
         if isButtonClicked {
@@ -302,7 +302,7 @@ public class MaterialTapTargetPrompt: UIView {
         }
         
         dismiss(isButtonClicked:false)
-
+        
     }
     
     
@@ -314,7 +314,7 @@ public class MaterialTapTargetPrompt: UIView {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismiss))
         dummyView?.addGestureRecognizer(tapGesture)
         appWindow!.addSubview(dummyView!)
-        appWindow!.bringSubview(toFront: self)
+        appWindow!.bringSubviewToFront(self)
     }
     
     override public func removeFromSuperview() {
@@ -327,7 +327,7 @@ public class MaterialTapTargetPrompt: UIView {
         if !isButtonClicked { dismissed() }
         self.removeFromSuperview()
     }
-
+    
 }
 
 
@@ -422,9 +422,9 @@ extension MaterialTapTargetPrompt {
     
     
     private var convertedTargetFrame: CGRect {
-         return self.convert(targetView.frame, from:targetView.superview)
+        return self.convert(targetView.frame, from:targetView.superview)
     }
-
+    
     private  var targetWidth: CGFloat {
         return convertedTargetFrame.size.width
     }
@@ -456,7 +456,7 @@ extension MaterialTapTargetPrompt {
     private var targetMidY: CGFloat {
         return convertedTargetFrame.midY
     }
-
+    
 }
 
 
@@ -487,6 +487,3 @@ extension CGRect {
     case rectangle
     case square
 }
-
-
-

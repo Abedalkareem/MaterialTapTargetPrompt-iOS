@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaterialTapTargetPrompt-iOS'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A iOS version of Material Tap Target Prompt.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ A iOS version of Material Tap Target Prompt ,Written in Swift and can be used in
   s.author           = { 'Abedalkareem' => 'abedalkareem.omreyh@yahoo.com' }
   s.source           = { :git => 'https://github.com/Abedalkareem/MaterialTapTargetPrompt-iOS.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
-  s.swift_version = '4.1'
+  s.swift_version = '4.2'
 
   s.ios.deployment_target = '9.0'
 
