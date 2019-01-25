@@ -34,6 +34,11 @@ it, simply add the following line to your Podfile:
 pod 'MaterialTapTargetPrompt-iOS'
 ```
 
+Or you can use [Carthage](https://github.com/Carthage/Carthage).
+
+```
+github "Abedalkareem/MaterialTapTargetPrompt-iOS"
+```
 
 <b>Note</b>
 
