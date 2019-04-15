@@ -49,17 +49,17 @@ public class MaterialTapTargetPrompt: UIView {
     
     // MARK: Public properties
     /// The primary label font
-    public var primaryFont: UIFont?
+    @objc public var primaryFont: UIFont?
     /// The secondary label font
-    public var secondaryFont: UIFont?
+    @objc public var secondaryFont: UIFont?
     
     /// The action will run when the target clicked.
-    public var action: (() -> Void) = {}
+    @objc public var action: (() -> Void) = {}
     /// The action will run when out of the target clicked.
-    public var dismissed: (() -> Void) = {}
+    @objc public var dismissed: (() -> Void) = {}
     
     /// The primary text.
-    public var primaryText: String = "Primary text Here !" {
+    @objc public var primaryText: String = "Primary text Here !" {
         willSet{
             primaryTextLabel.text = newValue
             primaryTextLabel.sizeToFit()
@@ -67,7 +67,7 @@ public class MaterialTapTargetPrompt: UIView {
     }
     
     /// The secondary text.
-    public var secondaryText: String = "Secondary text Here !" {
+    @objc public var secondaryText: String = "Secondary text Here !" {
         willSet{
             secondaryTextLabel.text = newValue
             secondaryTextLabel.sizeToFit()
@@ -75,14 +75,14 @@ public class MaterialTapTargetPrompt: UIView {
     }
     
     /// The circel color. `.blue` by default.
-    public var circleColor: UIColor! = UIColor.blue {
+    @objc public var circleColor: UIColor! = UIColor.blue {
         willSet{
             coloredCircleLayer.fillColor = newValue.cgColor
         }
     }
     
     /// The text postion around the view. `.bottomRight` by default
-    public var textPostion: TextPostion = .bottomRight {
+    @objc public var textPostion: TextPostion = .bottomRight {
         willSet {
             var xPostion: CGFloat = 0.0
             var yPostion: CGFloat = 0.0
