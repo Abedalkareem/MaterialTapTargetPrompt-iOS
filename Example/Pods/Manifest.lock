@@ -1,5 +1,5 @@
 PODS:
-  - MaterialTapTargetPrompt-iOS (1.0.0)
+  - MaterialTapTargetPrompt-iOS (1.0.2)
 
 DEPENDENCIES:
   - MaterialTapTargetPrompt-iOS (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MaterialTapTargetPrompt-iOS: fa6359772ff8a6efb9064071c5d943800be4e823
+  MaterialTapTargetPrompt-iOS: 86311715d4db0672be2cde98267a06b510cd6155
 
 PODFILE CHECKSUM: e06770ebb1264f55a7ca62d80ad2cf1b22859410
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0

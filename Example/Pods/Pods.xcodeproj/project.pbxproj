@@ -7,224 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EAA6E2C5371739C52D97318CFD89B3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		28B8FEA594AA527D89E170BC58FEF512 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DBBD8607D60F511F03AA28BF352DB3 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m */; };
-		64DA3BA5DAF83085073F7CC1661B096B /* MaterialTapTargetPrompt-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2668FCF0DFCEC4BE1FA827B143D22F5F /* MaterialTapTargetPrompt-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C12705B9597DFA79E55F76E40EE0FB1 /* MaterialTapTargetPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F922BA458E3E2CFCD6D98E6DC4D1A331 /* MaterialTapTargetPrompt.swift */; };
-		ABBC4DCD9D124BA82265D431630DC6B5 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CE0481382D40017C58E0F769599A7B /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE307A9DF806C7301EBCFCB60A6441D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D45BA7EFFF8A9DAE5AC739A13DCEBA96 /* MaterialTapTargetPrompt-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B6BCC95198D48C2762301DE6A8630 /* MaterialTapTargetPrompt-iOS-dummy.m */; };
+		051A3863C13B91894E4866F9E9F1D420 /* MaterialTapTargetPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F82A4124DBE6BF826B683BC7FD4825 /* MaterialTapTargetPrompt.swift */; };
+		1F93BEA87C83392D2C6C7630D961D313 /* MaterialTapTargetPrompt-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF27CA23EDAC4613D7792828148D5E5 /* MaterialTapTargetPrompt-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F2784B38E221FECC27B083E853AF772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5FF77E02380CE320B28C9A4535009AEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		761D695B806661B26D0DBD1C04122318 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC61E3D309E710051C1D05051042D5F /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m */; };
+		F5479C1676755BBEAA8C285EDC70B354 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518EEF884CEBBB75661452A588D23FD5 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE55D1ED835446E75A7385A6CE0A6BB /* MaterialTapTargetPrompt-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99309D6F82FCA01AB4F95A299EED707C /* MaterialTapTargetPrompt-iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		668D5B07186F5996892FB649651946A7 /* PBXContainerItemProxy */ = {
+		1C01F889BD44DF2CFDE88A0601658585 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C290773DCCBE97726BA456F3A2B5AA2C;
+			remoteGlobalIDString = 498CE165726CF452BF028ADB0B345B65;
 			remoteInfo = "MaterialTapTargetPrompt-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A5F132909541359D6171C9483EB6DF /* MaterialTapTargetPrompt-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "MaterialTapTargetPrompt-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2668FCF0DFCEC4BE1FA827B143D22F5F /* MaterialTapTargetPrompt-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialTapTargetPrompt-iOS-umbrella.h"; sourceTree = "<group>"; };
-		2F5B6BCC95198D48C2762301DE6A8630 /* MaterialTapTargetPrompt-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialTapTargetPrompt-iOS-dummy.m"; sourceTree = "<group>"; };
-		3161F46B916502EF7E09D57345E0057F /* MaterialTapTargetPrompt-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialTapTargetPrompt-iOS-prefix.pch"; sourceTree = "<group>"; };
-		4631360C77313D48541086161623CAB5 /* Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		49DBBD8607D60F511F03AA28BF352DB3 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m"; sourceTree = "<group>"; };
-		4E91575BEBEC2E0483B0B007846E1142 /* Pods-MaterialTapTargetPrompt-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaterialTapTargetPrompt-iOS_Example.modulemap"; sourceTree = "<group>"; };
-		55CE0481382D40017C58E0F769599A7B /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		5793FD93CD124A99913A208A08971495 /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5EC491497C1447BC74655A9B09C3E498 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76225F6846F37936242EF2DE860AC9CC /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FAC855B10E27A07B05AD00E195014DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA2EC668BD1DB1E98487561E8C26BDAB /* MaterialTapTargetPrompt-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MaterialTapTargetPrompt-iOS.xcconfig"; sourceTree = "<group>"; };
-		B524E9C3EE262FAB71541B8E439431E3 /* Pods_MaterialTapTargetPrompt_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaterialTapTargetPrompt_iOS_Example.framework; path = "Pods-MaterialTapTargetPrompt-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C031AD5F8B60A6329B2476C5646700B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C809EF18FCCF4B6A20D5E550396D7ABB /* Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CB5A4726C5076C85A4B7F0FB2390AEB4 /* Pods-MaterialTapTargetPrompt-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialTapTargetPrompt-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CD831E1AF87FC54C583A56B939EECC5F /* Pods-MaterialTapTargetPrompt-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialTapTargetPrompt-iOS_Example-resources.sh"; sourceTree = "<group>"; };
-		F22449EC62476657ECA6E9253CF6A003 /* MaterialTapTargetPrompt_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialTapTargetPrompt_iOS.framework; path = "MaterialTapTargetPrompt-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5AC4C1BF821D66559CBFFB4D1074004 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F922BA458E3E2CFCD6D98E6DC4D1A331 /* MaterialTapTargetPrompt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTapTargetPrompt.swift; path = "MaterialTapTargetPrompt-iOS/Classes/MaterialTapTargetPrompt.swift"; sourceTree = "<group>"; };
-		FED4415F6FF1E1BC505F7B499C76CF01 /* MaterialTapTargetPrompt-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MaterialTapTargetPrompt-iOS.modulemap"; sourceTree = "<group>"; };
+		0BC43F3492173D201304631013D0F1D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		10DE3353931C0CB4CC54B1A71656970A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		118BF0AFBC6CB8C795E50DD06ED675F7 /* MaterialTapTargetPrompt-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialTapTargetPrompt-iOS-Info.plist"; sourceTree = "<group>"; };
+		1C6D3F472B611269C26D8BB12394C0E1 /* Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		28F92976FDEBF3B4B13B57A9175A1E89 /* MaterialTapTargetPrompt-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MaterialTapTargetPrompt-iOS.xcconfig"; sourceTree = "<group>"; };
+		3670D55BCE6C32B196F93788AFA87F5C /* Pods-MaterialTapTargetPrompt-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaterialTapTargetPrompt-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3A338D41CD219692E59F18B0FCC26854 /* Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F7ECAD9BEEE225C437BA29F34EAEDB6 /* Pods-MaterialTapTargetPrompt-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaterialTapTargetPrompt-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		518EEF884CEBBB75661452A588D23FD5 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		6836EBA48A25B2FC05C68F5E6DEF4F42 /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9284EF5761A5D636340062785280A5C3 /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9784859C48DF2083E4E78A62DDD8E31A /* MaterialTapTargetPrompt_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialTapTargetPrompt_iOS.framework; path = "MaterialTapTargetPrompt-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99309D6F82FCA01AB4F95A299EED707C /* MaterialTapTargetPrompt-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialTapTargetPrompt-iOS-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF27CA23EDAC4613D7792828148D5E5 /* MaterialTapTargetPrompt-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialTapTargetPrompt-iOS-umbrella.h"; sourceTree = "<group>"; };
+		ADC61E3D309E710051C1D05051042D5F /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D803038CB915BE265429CA3481A2E962 /* MaterialTapTargetPrompt-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "MaterialTapTargetPrompt-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1B8AF023C0B83104794A24FAC1043BC /* Pods_MaterialTapTargetPrompt_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaterialTapTargetPrompt_iOS_Example.framework; path = "Pods-MaterialTapTargetPrompt-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F82A4124DBE6BF826B683BC7FD4825 /* MaterialTapTargetPrompt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTapTargetPrompt.swift; path = "MaterialTapTargetPrompt-iOS/Classes/MaterialTapTargetPrompt.swift"; sourceTree = "<group>"; };
+		EA2F5B08A6EF5142FEDEA172F51846FA /* Pods-MaterialTapTargetPrompt-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaterialTapTargetPrompt-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		F82D2AA7AE670A3EA8DBD73E5CEF79FF /* MaterialTapTargetPrompt-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "MaterialTapTargetPrompt-iOS.modulemap"; sourceTree = "<group>"; };
+		F8770AA7A99AED257CFB81CB9FDB6451 /* MaterialTapTargetPrompt-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialTapTargetPrompt-iOS-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59E5F9A27245F933F18D2C0F28F9B7A4 /* Frameworks */ = {
+		4A081C433EFD916F23D9ED771E81C1C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE307A9DF806C7301EBCFCB60A6441D0 /* Foundation.framework in Frameworks */,
+				2F2784B38E221FECC27B083E853AF772 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DFCD73FFE047B5C93EF6CA8A9AFB5FD /* Frameworks */ = {
+		894277536F50F532EDFE81484BD8BED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAA6E2C5371739C52D97318CFD89B3F /* Foundation.framework in Frameworks */,
+				5FF77E02380CE320B28C9A4535009AEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02851CEA6FE0DBCDFE13A4420A094C68 /* Pod */ = {
+		37994FACEA00C97E4D86C5B0CAADC5A9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C031AD5F8B60A6329B2476C5646700B0 /* LICENSE */,
-				05A5F132909541359D6171C9483EB6DF /* MaterialTapTargetPrompt-iOS.podspec */,
-				F5AC4C1BF821D66559CBFFB4D1074004 /* README.md */,
+				0BC43F3492173D201304631013D0F1D9 /* LICENSE */,
+				D803038CB915BE265429CA3481A2E962 /* MaterialTapTargetPrompt-iOS.podspec */,
+				10DE3353931C0CB4CC54B1A71656970A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		290500CDFC7980E12C368DA5510291BE /* Pods-MaterialTapTargetPrompt-iOS_Example */ = {
+		540BDDD91FBDEFD826C7E27CEB3F3D37 /* MaterialTapTargetPrompt-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5EC491497C1447BC74655A9B09C3E498 /* Info.plist */,
-				4E91575BEBEC2E0483B0B007846E1142 /* Pods-MaterialTapTargetPrompt-iOS_Example.modulemap */,
-				76225F6846F37936242EF2DE860AC9CC /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.markdown */,
-				5793FD93CD124A99913A208A08971495 /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.plist */,
-				49DBBD8607D60F511F03AA28BF352DB3 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m */,
-				CB5A4726C5076C85A4B7F0FB2390AEB4 /* Pods-MaterialTapTargetPrompt-iOS_Example-frameworks.sh */,
-				CD831E1AF87FC54C583A56B939EECC5F /* Pods-MaterialTapTargetPrompt-iOS_Example-resources.sh */,
-				55CE0481382D40017C58E0F769599A7B /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h */,
-				C809EF18FCCF4B6A20D5E550396D7ABB /* Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig */,
-				4631360C77313D48541086161623CAB5 /* Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig */,
-			);
-			name = "Pods-MaterialTapTargetPrompt-iOS_Example";
-			path = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example";
-			sourceTree = "<group>";
-		};
-		51F0E7A75ABF319F9DAEFDFE754A27E5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				290500CDFC7980E12C368DA5510291BE /* Pods-MaterialTapTargetPrompt-iOS_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5FDED658B6F1B30C624DA1EDF8C8D307 /* MaterialTapTargetPrompt-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F922BA458E3E2CFCD6D98E6DC4D1A331 /* MaterialTapTargetPrompt.swift */,
-				02851CEA6FE0DBCDFE13A4420A094C68 /* Pod */,
-				F5C52729ACE5EFA13FDA2467452FAB73 /* Support Files */,
+				E9F82A4124DBE6BF826B683BC7FD4825 /* MaterialTapTargetPrompt.swift */,
+				37994FACEA00C97E4D86C5B0CAADC5A9 /* Pod */,
+				A3C8215B1C06B353031806589779749A /* Support Files */,
 			);
 			name = "MaterialTapTargetPrompt-iOS";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		7893777BA931B1E7D3FB6969A415A767 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A6A753647FC975A21FE2CC646E15AAA1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CD6F760297534F3D1500AF15ECCAD55D /* Products */,
-				51F0E7A75ABF319F9DAEFDFE754A27E5 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A6A753647FC975A21FE2CC646E15AAA1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5FDED658B6F1B30C624DA1EDF8C8D307 /* MaterialTapTargetPrompt-iOS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD6F760297534F3D1500AF15ECCAD55D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F22449EC62476657ECA6E9253CF6A003 /* MaterialTapTargetPrompt_iOS.framework */,
-				B524E9C3EE262FAB71541B8E439431E3 /* Pods_MaterialTapTargetPrompt_iOS_Example.framework */,
+				9784859C48DF2083E4E78A62DDD8E31A /* MaterialTapTargetPrompt_iOS.framework */,
+				E1B8AF023C0B83104794A24FAC1043BC /* Pods_MaterialTapTargetPrompt_iOS_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5C52729ACE5EFA13FDA2467452FAB73 /* Support Files */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9FAC855B10E27A07B05AD00E195014DD /* Info.plist */,
-				FED4415F6FF1E1BC505F7B499C76CF01 /* MaterialTapTargetPrompt-iOS.modulemap */,
-				AA2EC668BD1DB1E98487561E8C26BDAB /* MaterialTapTargetPrompt-iOS.xcconfig */,
-				2F5B6BCC95198D48C2762301DE6A8630 /* MaterialTapTargetPrompt-iOS-dummy.m */,
-				3161F46B916502EF7E09D57345E0057F /* MaterialTapTargetPrompt-iOS-prefix.pch */,
-				2668FCF0DFCEC4BE1FA827B143D22F5F /* MaterialTapTargetPrompt-iOS-umbrella.h */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A3C8215B1C06B353031806589779749A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F82D2AA7AE670A3EA8DBD73E5CEF79FF /* MaterialTapTargetPrompt-iOS.modulemap */,
+				28F92976FDEBF3B4B13B57A9175A1E89 /* MaterialTapTargetPrompt-iOS.xcconfig */,
+				99309D6F82FCA01AB4F95A299EED707C /* MaterialTapTargetPrompt-iOS-dummy.m */,
+				118BF0AFBC6CB8C795E50DD06ED675F7 /* MaterialTapTargetPrompt-iOS-Info.plist */,
+				F8770AA7A99AED257CFB81CB9FDB6451 /* MaterialTapTargetPrompt-iOS-prefix.pch */,
+				9DF27CA23EDAC4613D7792828148D5E5 /* MaterialTapTargetPrompt-iOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MaterialTapTargetPrompt-iOS";
 			sourceTree = "<group>";
 		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E4D8004254DA8C190D8B19E449AB2869 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7893777BA931B1E7D3FB6969A415A767 /* Products */,
+				CF8081E3A61E429797D7370C98891320 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8081E3A61E429797D7370C98891320 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F750F026132F5A687018795CD87C9F /* Pods-MaterialTapTargetPrompt-iOS_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4D8004254DA8C190D8B19E449AB2869 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				540BDDD91FBDEFD826C7E27CEB3F3D37 /* MaterialTapTargetPrompt-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3F750F026132F5A687018795CD87C9F /* Pods-MaterialTapTargetPrompt-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F7ECAD9BEEE225C437BA29F34EAEDB6 /* Pods-MaterialTapTargetPrompt-iOS_Example.modulemap */,
+				9284EF5761A5D636340062785280A5C3 /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.markdown */,
+				6836EBA48A25B2FC05C68F5E6DEF4F42 /* Pods-MaterialTapTargetPrompt-iOS_Example-acknowledgements.plist */,
+				ADC61E3D309E710051C1D05051042D5F /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m */,
+				3670D55BCE6C32B196F93788AFA87F5C /* Pods-MaterialTapTargetPrompt-iOS_Example-frameworks.sh */,
+				EA2F5B08A6EF5142FEDEA172F51846FA /* Pods-MaterialTapTargetPrompt-iOS_Example-Info.plist */,
+				518EEF884CEBBB75661452A588D23FD5 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h */,
+				1C6D3F472B611269C26D8BB12394C0E1 /* Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig */,
+				3A338D41CD219692E59F18B0FCC26854 /* Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-MaterialTapTargetPrompt-iOS_Example";
+			path = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		123372C1C848508E72CB5C14C6CAFD00 /* Headers */ = {
+		C390DE347C511DD24F208020C22C06D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64DA3BA5DAF83085073F7CC1661B096B /* MaterialTapTargetPrompt-iOS-umbrella.h in Headers */,
+				F5479C1676755BBEAA8C285EDC70B354 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5EAC3A9A4A962BB9FF3343B4765E295 /* Headers */ = {
+		DE008466DEBDAA4FE4C17D2D8DCFA45A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABBC4DCD9D124BA82265D431630DC6B5 /* Pods-MaterialTapTargetPrompt-iOS_Example-umbrella.h in Headers */,
+				1F93BEA87C83392D2C6C7630D961D313 /* MaterialTapTargetPrompt-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2F02DB9FBE3C6B26D525C81328A5DDB3 /* Pods-MaterialTapTargetPrompt-iOS_Example */ = {
+		3CD1C2BA3419EF79AC8F79C4F917EE09 /* Pods-MaterialTapTargetPrompt-iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0309D1EE03A723F282A4BDA71FDDD428 /* Build configuration list for PBXNativeTarget "Pods-MaterialTapTargetPrompt-iOS_Example" */;
+			buildConfigurationList = B46897E3AA0214B2D3CAE7BE1ACBDD23 /* Build configuration list for PBXNativeTarget "Pods-MaterialTapTargetPrompt-iOS_Example" */;
 			buildPhases = (
-				B0332DEFEB02288B8AF894E5DA9D8F05 /* Sources */,
-				59E5F9A27245F933F18D2C0F28F9B7A4 /* Frameworks */,
-				D5EAC3A9A4A962BB9FF3343B4765E295 /* Headers */,
+				C390DE347C511DD24F208020C22C06D7 /* Headers */,
+				BAF7B97862AEC734DE1636AD6DBEFBB3 /* Sources */,
+				894277536F50F532EDFE81484BD8BED5 /* Frameworks */,
+				B451F8AAF48C69F2587C691CFE2F584F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85BA84458EC7DDB26D37F1B39050E825 /* PBXTargetDependency */,
+				14CCD95B2455EAB6892AAC905BC5CF36 /* PBXTargetDependency */,
 			);
 			name = "Pods-MaterialTapTargetPrompt-iOS_Example";
 			productName = "Pods-MaterialTapTargetPrompt-iOS_Example";
-			productReference = B524E9C3EE262FAB71541B8E439431E3 /* Pods_MaterialTapTargetPrompt_iOS_Example.framework */;
+			productReference = E1B8AF023C0B83104794A24FAC1043BC /* Pods_MaterialTapTargetPrompt_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C290773DCCBE97726BA456F3A2B5AA2C /* MaterialTapTargetPrompt-iOS */ = {
+		498CE165726CF452BF028ADB0B345B65 /* MaterialTapTargetPrompt-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEDA6ECCC009EED3F530BC191A31BA36 /* Build configuration list for PBXNativeTarget "MaterialTapTargetPrompt-iOS" */;
+			buildConfigurationList = BCD83D44E407D0FB7EC51DB4D02694D1 /* Build configuration list for PBXNativeTarget "MaterialTapTargetPrompt-iOS" */;
 			buildPhases = (
-				B05326491B422B17E656D8DB67311FB5 /* Sources */,
-				9DFCD73FFE047B5C93EF6CA8A9AFB5FD /* Frameworks */,
-				123372C1C848508E72CB5C14C6CAFD00 /* Headers */,
+				DE008466DEBDAA4FE4C17D2D8DCFA45A /* Headers */,
+				61E414ED890D2A37892CF5C82523A7B6 /* Sources */,
+				4A081C433EFD916F23D9ED771E81C1C2 /* Frameworks */,
+				26A7362E8CE4FB748B4EAA10EA8F1406 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -232,101 +232,86 @@
 			);
 			name = "MaterialTapTargetPrompt-iOS";
 			productName = "MaterialTapTargetPrompt-iOS";
-			productReference = F22449EC62476657ECA6E9253CF6A003 /* MaterialTapTargetPrompt_iOS.framework */;
+			productReference = 9784859C48DF2083E4E78A62DDD8E31A /* MaterialTapTargetPrompt_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CD6F760297534F3D1500AF15ECCAD55D /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7893777BA931B1E7D3FB6969A415A767 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C290773DCCBE97726BA456F3A2B5AA2C /* MaterialTapTargetPrompt-iOS */,
-				2F02DB9FBE3C6B26D525C81328A5DDB3 /* Pods-MaterialTapTargetPrompt-iOS_Example */,
+				498CE165726CF452BF028ADB0B345B65 /* MaterialTapTargetPrompt-iOS */,
+				3CD1C2BA3419EF79AC8F79C4F917EE09 /* Pods-MaterialTapTargetPrompt-iOS_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		B0332DEFEB02288B8AF894E5DA9D8F05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		26A7362E8CE4FB748B4EAA10EA8F1406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B8FEA594AA527D89E170BC58FEF512 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B05326491B422B17E656D8DB67311FB5 /* Sources */ = {
+		B451F8AAF48C69F2587C691CFE2F584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E414ED890D2A37892CF5C82523A7B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45BA7EFFF8A9DAE5AC739A13DCEBA96 /* MaterialTapTargetPrompt-iOS-dummy.m in Sources */,
-				7C12705B9597DFA79E55F76E40EE0FB1 /* MaterialTapTargetPrompt.swift in Sources */,
+				FCE55D1ED835446E75A7385A6CE0A6BB /* MaterialTapTargetPrompt-iOS-dummy.m in Sources */,
+				051A3863C13B91894E4866F9E9F1D420 /* MaterialTapTargetPrompt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF7B97862AEC734DE1636AD6DBEFBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761D695B806661B26D0DBD1C04122318 /* Pods-MaterialTapTargetPrompt-iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85BA84458EC7DDB26D37F1B39050E825 /* PBXTargetDependency */ = {
+		14CCD95B2455EAB6892AAC905BC5CF36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MaterialTapTargetPrompt-iOS";
-			target = C290773DCCBE97726BA456F3A2B5AA2C /* MaterialTapTargetPrompt-iOS */;
-			targetProxy = 668D5B07186F5996892FB649651946A7 /* PBXContainerItemProxy */;
+			target = 498CE165726CF452BF028ADB0B345B65 /* MaterialTapTargetPrompt-iOS */;
+			targetProxy = 1C01F889BD44DF2CFDE88A0601658585 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02076F2B14EE3E51BCD6AB6F32A48309 /* Debug */ = {
+		12CF4FB04E1156BDE995CA96B79B7A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA2EC668BD1DB1E98487561E8C26BDAB /* MaterialTapTargetPrompt-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialTapTargetPrompt-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS.modulemap";
-				PRODUCT_MODULE_NAME = MaterialTapTargetPrompt_iOS;
-				PRODUCT_NAME = MaterialTapTargetPrompt_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CE14BA7B5219F55105E9250E9DDE155 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C809EF18FCCF4B6A20D5E550396D7ABB /* Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig */;
+			baseConfigurationReference = 1C6D3F472B611269C26D8BB12394C0E1 /* Pods-MaterialTapTargetPrompt-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -338,7 +323,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example/Pods-MaterialTapTargetPrompt-iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,17 +336,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7CDE3C12AC690EA00FD9B63B36D0FFA9 /* Release */ = {
+		3675EEC02562E10E0FB185B25C1716B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA2EC668BD1DB1E98487561E8C26BDAB /* MaterialTapTargetPrompt-iOS.xcconfig */;
+			baseConfigurationReference = 28F92976FDEBF3B4B13B57A9175A1E89 /* MaterialTapTargetPrompt-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -373,7 +356,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MaterialTapTargetPrompt-iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -383,16 +366,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,8 +405,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -446,16 +425,53 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		E5B19DF78659A7BF8098C72C8EE8BA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A338D41CD219692E59F18B0FCC26854 /* Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example/Pods-MaterialTapTargetPrompt-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example/Pods-MaterialTapTargetPrompt-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -487,8 +503,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -507,17 +521,20 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C9300327F0B88997373F374EC91DED20 /* Release */ = {
+		F6532C6771F72AB2750032D0E1CCACE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4631360C77313D48541086161623CAB5 /* Pods-MaterialTapTargetPrompt-iOS_Example.release.xcconfig */;
+			baseConfigurationReference = 28F92976FDEBF3B4B13B57A9175A1E89 /* MaterialTapTargetPrompt-iOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -527,20 +544,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MaterialTapTargetPrompt-iOS_Example/Pods-MaterialTapTargetPrompt-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MaterialTapTargetPrompt-iOS/MaterialTapTargetPrompt-iOS.modulemap";
+				PRODUCT_MODULE_NAME = MaterialTapTargetPrompt_iOS;
+				PRODUCT_NAME = MaterialTapTargetPrompt_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -551,34 +566,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0309D1EE03A723F282A4BDA71FDDD428 /* Build configuration list for PBXNativeTarget "Pods-MaterialTapTargetPrompt-iOS_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CE14BA7B5219F55105E9250E9DDE155 /* Debug */,
-				C9300327F0B88997373F374EC91DED20 /* Release */,
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		B46897E3AA0214B2D3CAE7BE1ACBDD23 /* Build configuration list for PBXNativeTarget "Pods-MaterialTapTargetPrompt-iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				12CF4FB04E1156BDE995CA96B79B7A5E /* Debug */,
+				E5B19DF78659A7BF8098C72C8EE8BA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEDA6ECCC009EED3F530BC191A31BA36 /* Build configuration list for PBXNativeTarget "MaterialTapTargetPrompt-iOS" */ = {
+		BCD83D44E407D0FB7EC51DB4D02694D1 /* Build configuration list for PBXNativeTarget "MaterialTapTargetPrompt-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02076F2B14EE3E51BCD6AB6F32A48309 /* Debug */,
-				7CDE3C12AC690EA00FD9B63B36D0FFA9 /* Release */,
+				3675EEC02562E10E0FB185B25C1716B1 /* Debug */,
+				F6532C6771F72AB2750032D0E1CCACE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
