@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C290773DCCBE97726BA456F3A2B5AA2C"
+               BlueprintIdentifier = "498CE165726CF452BF028ADB0B345B65"
                BuildableName = "MaterialTapTargetPrompt_iOS.framework"
                BlueprintName = "MaterialTapTargetPrompt-iOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C290773DCCBE97726BA456F3A2B5AA2C"
+            BlueprintIdentifier = "498CE165726CF452BF028ADB0B345B65"
             BuildableName = "MaterialTapTargetPrompt_iOS.framework"
             BlueprintName = "MaterialTapTargetPrompt-iOS"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C290773DCCBE97726BA456F3A2B5AA2C"
+            BlueprintIdentifier = "498CE165726CF452BF028ADB0B345B65"
             BuildableName = "MaterialTapTargetPrompt_iOS.framework"
             BlueprintName = "MaterialTapTargetPrompt-iOS"
             ReferencedContainer = "container:Pods.xcodeproj">

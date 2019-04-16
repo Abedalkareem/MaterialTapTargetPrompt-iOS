@@ -108,9 +108,9 @@ public class MaterialTapTargetPrompt: UIView {
             case .centerLeft:
                 xPostion = viewWidth/6
                 yPostion = viewWidth/2.23
-            case .cenertTop:
+            case .centerTop:
                 xPostion = viewWidth/2.23
-                yPostion = viewWidth/1.6
+                yPostion = viewWidth/4
             case .centerBottom:
                 xPostion = viewWidth/2.23
                 yPostion = viewWidth/1.6
@@ -477,7 +477,7 @@ extension CGRect {
     case topRight
     case centerLeft
     case centerRight
-    case cenertTop
+    case centerTop
     case centerBottom
 }
 

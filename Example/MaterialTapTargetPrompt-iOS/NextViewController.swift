@@ -37,7 +37,7 @@ class NextViewController: UIViewController {
         tapTargetPrompt.circleColor = #colorLiteral(red: 0.1568627451, green: 0.6588235294, blue: 0.8901960784, alpha: 1)
         tapTargetPrompt.primaryText = "Center Button"
         tapTargetPrompt.secondaryText = "This button show a bad things"
-        tapTargetPrompt.textPostion = .centerBottom
+        tapTargetPrompt.textPostion = .centerTop
     }
     
     func showForBack() {

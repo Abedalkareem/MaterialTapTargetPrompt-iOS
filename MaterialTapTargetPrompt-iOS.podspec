@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaterialTapTargetPrompt-iOS'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'A iOS version of Material Tap Target Prompt.'
 
 # This description is used to generate tags and improve search results.
