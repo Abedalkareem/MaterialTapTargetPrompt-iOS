@@ -1,7 +1,7 @@
 <p align="center">
  <img src="https://github.com/Abedalkareem/MaterialTapTargetPrompt-iOS/blob/master/material_tap_target_logo.png"  >
 </p>
-A iOS version of Material Tap Target Prompt ,Written in Swift and can be used in swift or objective c projects.
+An iOS version of Material Tap Target Prompt, written in Swift and can be used in swift or objective c projects.
 
 </br>
 
