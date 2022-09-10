@@ -6,15 +6,15 @@
 <p align="center">
  <img src="https://github.com/Abedalkareem/MaterialTapTargetPrompt-iOS/blob/master/material_tap_target_logo.png"  >
 </p>
-An iOS version of Material Tap Target Prompt, written in Swift and can be used in swift or objective c projects.
+An iOS version of Material Tap Target Prompt, written in Swift and can be used in swift or objective-c projects.
 
 </br>
 
-<b>ScreenShots</b>
+## ScreenShots
 
 <img src="https://raw.githubusercontent.com/Abedalkareem/MaterialTapTargetPrompt-iOS/master/screenshot.png"  width="450">
 
-<b>Usage</b>
+## Usage
 
 ```swift
 let tapTargetPrompt = MaterialTapTargetPrompt(target: leftBarButton)
@@ -30,7 +30,7 @@ tapTargetPrompt.secondaryText = "Here you can add home"
 tapTargetPrompt.textPostion = .bottomRight
 ```
 
-<b>Installation</b>
+## Installation
 
 MaterialTapTargetPrompt-iOS is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -58,7 +58,7 @@ You can support this project by:
 
 [Facebook](https://www.facebook.com/Abedalkareem.Omreyh/) | [Twitter](https://twitter.com/abedalkareemomr) | [Instagram](https://instagram.com/abedalkareemomreyh/) | [Youtube](https://www.youtube.com/user/AbedalkareemOmreyh)
 
-<b>License</b>
+## License
 
 ```
 The MIT License (MIT)
