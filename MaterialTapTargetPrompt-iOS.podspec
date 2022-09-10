@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaterialTapTargetPrompt-iOS'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A iOS version of Material Tap Target Prompt.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A iOS version of Material Tap Target Prompt ,Written in Swift and can be used in swift or objective c projects.
+An iOS version of Material Tap Target Prompt written in Swift and can be used in swift or objective-c projects.
                        DESC
 
   s.homepage         = 'https://github.com/Abedalkareem/MaterialTapTargetPrompt-iOS'
@@ -29,9 +29,9 @@ A iOS version of Material Tap Target Prompt ,Written in Swift and can be used in
   s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
   s.swift_version = '5.0'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'MaterialTapTargetPrompt-iOS/Classes/**/*'
+  s.source_files = 'MaterialTapTargetPrompt/MaterialTapTargetPrompt/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MaterialTapTargetPrompt-iOS' => ['MaterialTapTargetPrompt-iOS/Assets/*.png']

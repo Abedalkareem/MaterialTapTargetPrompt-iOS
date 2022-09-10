@@ -7,13 +7,11 @@
 //
 
 import UIKit
-import MaterialTapTargetPrompt_iOS
+import MaterialTapTargetPrompt
 
 class ViewController: UIViewController {
-  
-  @IBOutlet weak var rightBarButton: UIBarButtonItem!
-  @IBOutlet weak var leftBarButton: UIBarButtonItem!
-  
+  @IBOutlet private weak var rightBarButton: UIBarButtonItem!
+  @IBOutlet private weak var leftBarButton: UIBarButtonItem!
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -32,7 +30,7 @@ class ViewController: UIViewController {
     tapTargetPrompt.secondaryText = "Here you can add home"
     tapTargetPrompt.textPostion = .bottomRight
   }
-  
+
   @IBAction func showRightShowcase(_ sender: UIButton) {
     let tapTargetPrompt = MaterialTapTargetPrompt(target: rightBarButton)
     tapTargetPrompt.action = {
@@ -43,6 +41,5 @@ class ViewController: UIViewController {
     tapTargetPrompt.secondaryText = "This menu show a good things"
     tapTargetPrompt.textPostion = .bottomLeft
   }
-  
-}
 
+}

@@ -7,27 +7,27 @@
 //
 
 import UIKit
-import MaterialTapTargetPrompt_iOS
+import MaterialTapTargetPrompt
 
 class NextViewController: UIViewController {
-  
-  @IBOutlet weak var backButton: UIButton!
-  @IBOutlet weak var centerButton: UIButton!
-  
+
+  @IBOutlet private weak var backButton: UIButton!
+  @IBOutlet private weak var centerButton: UIButton!
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+
   }
-  
+
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
     showForBack()
   }
-  
+
   @IBAction func showForBackButton(_ sender: UIButton) {
     showForBack()
   }
-  
+
   @IBAction func showForCenterButton(_ sender: UIButton) {
     let tapTargetPrompt = MaterialTapTargetPrompt(target: centerButton, type: .rectangle)
     tapTargetPrompt.action = {
@@ -38,7 +38,7 @@ class NextViewController: UIViewController {
     tapTargetPrompt.secondaryText = "This button show a bad things"
     tapTargetPrompt.textPostion = .centerTop
   }
-  
+
   func showForBack() {
     let tapTargetPrompt = MaterialTapTargetPrompt(target: backButton)
     tapTargetPrompt.action = {
@@ -52,7 +52,7 @@ class NextViewController: UIViewController {
     tapTargetPrompt.secondaryText = "if you clicked here, you will go back to previous screen"
     tapTargetPrompt.textPostion = .topRight
   }
-  
+
   @IBAction func back(_ sender: Any) {
     dismiss(animated: true, completion: nil)
   }
