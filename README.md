@@ -32,6 +32,8 @@ tapTargetPrompt.textPostion = .bottomRight
 
 ## Installation
 
+### CocoaPods
+
 MaterialTapTargetPrompt-iOS is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -39,11 +41,30 @@ it, simply add the following line to your Podfile:
 pod 'MaterialTapTargetPrompt-iOS'
 ```
 
+### Carthage
+
 Or you can use [Carthage](https://github.com/Carthage/Carthage).
 
 ```
 github "Abedalkareem/MaterialTapTargetPrompt-iOS"
 ```
+
+### Swift Package Manager
+
+You can use also [Swift Package Manager](https://developer.apple.com/documentation/xcode/swift-packages):
+
+1. Open your project in Xcode
+2. Click "File" -> "Add Packages..."
+3. Paste the following URL: https://github.com/gallinaettore/MaterialTapTargetPrompt-iOS
+
+
+You can specify the dependency in `Package.swift` by adding this:
+
+```swift
+.package(url: "https://github.com/gallinaettore/MaterialTapTargetPrompt-iOS.git", .upToNextMajor(from: "1.0.6"))
+```
+
+
 
 ## Support me 🚀  
 
